@@ -8,9 +8,6 @@
   "homepage": "https://github.com/my8bird/node-leveldb",
   "version": "0.6.2",
   "main": "lib",
-  "engines": {
-    "node": "~0.6.x"
-  },
   "scripts": {
     "prepublish": "make coffee",
     "install": "make build pkgclean && if [ ! -f ./lib/index.js ]; then make coffee; fi",
